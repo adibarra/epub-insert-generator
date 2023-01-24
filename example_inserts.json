@@ -1,0 +1,20 @@
+{
+  "inserts": [
+    {
+      "chapter": 0,
+      "key": "0",
+      "title": "Main Text to Display",
+      "sub": "Sub Text to Display",
+      "vert": "Vertical Text to Display",
+      "url": "Url or Path to Image"
+    },
+    {
+      "chapter": 1,
+      "key": "1",
+      "title": "Main Text to Display",
+      "sub": "Sub Text to Display",
+      "vert": "Vertical Text to Display",
+      "url": "Url or Path to Image"
+    }
+  ]
+}
