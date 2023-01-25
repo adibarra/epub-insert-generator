@@ -40,7 +40,7 @@ $ nano inserts.json
 | `title` | Used to generate the main text xhtml file. |
 | `sub` | Used to generate the subtitle the xhtml file. |
 | `vert` | Used to generate the vertical text in the xhtml file. |
-| `url` | Used to download the image used in the xhtml file. |
+| `url` | Used to download the image used in the xhtml file. Can be a path to a local file. |
 
 The `inserts.json` file should have the following format:
 
@@ -48,12 +48,12 @@ The `inserts.json` file should have the following format:
 {
   "inserts": [
     {
-      "chapter": 0,                                // Chapter number
-      "key": "cool",                               // Unique key
-      "title": "Cool image",                       // Main text
-      "sub": "This is an image from a url",        // Sub text
-      "vert": "Stored in the assets/cache folder", // Vertical text
-      "url": "https://example.com/image.jpg"       // Url or path to image
+      "chapter": 0,
+      "key": "cool",
+      "title": "Cool image",
+      "sub": "This is an image from a url",
+      "vert": "Stored in the assets/cache folder",
+      "url": "https://example.com/image.jpg"
     },
     {
       "chapter": 1,
